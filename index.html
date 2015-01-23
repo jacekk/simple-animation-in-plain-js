@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple animation by JacekK</title>
+  <style>
+html, body {
+  background: #fff;
+  margin: 0;
+  text-align: center;
+}
+#box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  display: block;
+}
+label, select {
+  display: inline-block;
+}
+label {
+  padding-left: 20px;
+}
+select {
+  width: 60px;
+}
+  </style>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="box"></div>
+  <br>
+  <div class="settings-form">
+    <label>Left</label>
+    <select name="left" data-option-range="0-500"></select>
+    <label>Top</label>
+    <select name="top" data-option-range="0-500"></select>
+    <label>Width</label>
+    <select name="width" data-option-range="1-50"></select>
+    <label>Height</label>
+    <select name="height" data-option-range="1-50"></select>
+  </div>
+</body>
+</html>
